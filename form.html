@@ -5,12 +5,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Pagina para compras de comida">
+  <link rel="shortcut icon" href="./android-chrome-192x192.png" type="image/x-icon">
   <link rel="stylesheet" href="./styles/formStyle.css">
   <title>Lista de compra</title>
 </head>
 
 <body>
+  <header>
+    <h1>Lista de la compra</h1>
+    <nav>
+      <ol>
+        <li>Principal</li>
+        <li>Lista</li>
+        <li>Acerca de</li>
+      </ol>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <a href="./list.html">+</a>
+      <p>2/3 Comprados</p>
+    </div>
+    <section>
+      <h2>Editar Articulo</h2>
+    </section>
 
+    <section>
+      <form name="addProductForm">
+
+        <label name="productname" id="name">Nombre<input type="text" for="productname"></label>
+
+
+        <label name="productprice" id="price">Precio<input type="text" for="productprice"></label>
+
+
+        <button type="submit">Modificar</button>
+
+
+      </form>
+    </section>
+
+  </main>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-h1{
+h1 {
   font-size: large;
 }
 header {
@@ -32,7 +32,6 @@ main > div {
   font-weight: 300;
 }
 
-
 main > section:nth-child(2) > ul > li:nth-child(odd) {
   text-decoration: line-through;
 }
@@ -41,19 +40,18 @@ body > main > section:nth-child(3) {
   height: 300px;
 }
 a {
-    display: flex;
-    background-color: #54188b;
-    border-radius: 50%;
-    width: 20px;
-    justify-content: center;
-    align-items: center;
-    font-weight: 900;
-    color: #d09c72;
-    font-size: 1.2rem;
-    text-decoration: none;
-    font-family: monospace;
-    height: 20px;
-  }
+  display: flex;
+  background-color: #54188b;
+  border-radius: 50%;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: #d09c72;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: monospace;
+  height: 20px;
 }
 
 body > main > section:nth-child(2) {
